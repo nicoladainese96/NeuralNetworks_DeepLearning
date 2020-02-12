@@ -18,5 +18,3 @@ The notable aspects of this project are:
 * The introduction of a technique that I call activation map to visualize which parts of an input are responsible for the excitation or the inhibition of each neuron.
 
 <img src=Supplementary_material/activationPF.png>
-
-[See plot](./Supplementary_material/plotly_graph.html)
