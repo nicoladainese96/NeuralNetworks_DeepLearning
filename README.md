@@ -25,7 +25,7 @@ level. I then trained the network on some books of Jane Austen and finally gener
 
 The results are not super exciting, but not that bad either. As an example I generated some text from the famous incipit of the novel Pride and Prejudice "It is a truth universally acknowledged":
 
-"by us for you have been thorough in getting at the park . 
+*"by us for you have been thorough in getting at the park . 
 connexions or caution , to please before in dinner for him in his very voice with the time and visitors was taken up striking
 , french , till lady their william was well claim . 
 in making her aunt , till this had her interest , because mr allen remained simile they had mr crawford , he spoke her from the 
@@ -33,7 +33,7 @@ girls said exercise to expect in her way , i shall set out of her memory , every
 dashwood made to comprehend from the subject , where renewed such years and beauty , how can i know the winter and from the same light . 
 her duty was too far the smallest opportunity , and as a complacency to be made to do i have been all the touch of penetration with saying . . 
 meanwhile but you thought what you and yourself they are shocked . 
-, to forgive , nothing cannot be indeed taking our notice of our power . "
+, to forgive , nothing cannot be indeed taking our notice of our power . "*
 
 I would say that there is a good understanding of the grammatical structure of a phrase, but almost no understanding of the semantic meaning of the words, so overall the generated text doesn't make any sense. I also noticed that sometimes a comma is placed after a point. In hindsight it is just my fault, because I splitted the text in entire sequences, but never trained on sequences that spanned across multiple phrases, so the point was always at the end and that makes impossible to predict the next word.
 
